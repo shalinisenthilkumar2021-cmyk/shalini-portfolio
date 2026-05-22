@@ -22,10 +22,3 @@ app.get('*', (req, res) => {
 app.listen(PORT, () => {
   console.log(`\n🚀 Shalini Portfolio running at http://localhost:${PORT}\n`)
 })
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-export default defineConfig({
-  plugins: [react()],
-  base: '/shalini-portfolio/',
-})

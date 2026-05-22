@@ -2,6 +2,7 @@
   "name": "shalini-portfolio",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://shalinisenthilkumar2021-cmyk.github.io/shalini-portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -112,9 +112,9 @@ export default function Home() {
           {/* Social links */}
           <motion.div variants={fadeUp} className="flex gap-5 justify-center">
             {[
-              { icon: Github, href: 'https://github.com/', label: 'GitHub' },
+              { icon: Github, href: 'https://github.com/shalinisenthilkumar2021-cmyk', label: 'GitHub' },
               { icon: Linkedin, href: 'https://linkedin.com/in/', label: 'LinkedIn' },
-              { icon: Mail, href: 'mailto:shalini@email.com', label: 'Email' },
+              { icon: Mail, href: 'mailto:shalinisenthilkumar2021@gmail.com', label: 'Email' },
             ].map(({ icon: Icon, href, label }) => (
               <a
                 key={label}

@@ -12,7 +12,7 @@ const contacts = [
   {
     icon: Github,
     label: 'GitHub',
-    value: 'github.com/shalini',
+    value: 'https://github.com/shalinisenthilkumar2021-cmyk',
     href: 'https://github.com/',
     color: '#f0f0f0',
     desc: 'Check out my code & projects',
@@ -28,7 +28,7 @@ const contacts = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'shalini@email.com',
+    value: 'shalinisenthilkumar2021@gmail',
     href: 'mailto:shalini@email.com',
     color: '#7c6af7',
     desc: 'Drop me a message anytime',
@@ -36,7 +36,7 @@ const contacts = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+91 00000 00000',
+    value: '+91 6383554672',
     href: 'tel:+910000000000',
     color: '#2dd4bf',
     desc: 'Available Mon–Sat',
@@ -105,7 +105,7 @@ export default function Contact() {
               </div>
               <div className="flex gap-3 flex-shrink-0">
                 <a
-                  href="/resume.pdf"
+                  href={`${import.meta.env.BASE_URL}shalini-resume.pdf`}
                   download
                   className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-accent hover:bg-accent/80 text-white font-display font-semibold text-sm transition-all glow-accent hover:scale-105 active:scale-95"
                 >
@@ -113,13 +113,16 @@ export default function Contact() {
                   Download
                 </a>
                 <a
-                  href="/resume.pdf"
+
+                  href={`${import.meta.env.BASE_URL}shalini-resume.pdf`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-5 py-2.5 rounded-xl border border-white/15 hover:border-teal-accent/50 text-white/80 hover:text-white font-display font-semibold text-sm transition-all hover:bg-white/5 hover:scale-105 active:scale-95"
                 >
                   <Eye size={15} />
                   View
+
+
                 </a>
               </div>
             </div>

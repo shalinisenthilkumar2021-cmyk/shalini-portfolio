@@ -3,16 +3,85 @@ import { Github, ExternalLink } from 'lucide-react'
 import PageWrapper from '../components/PageWrapper'
 
 const projects = [
+
   {
-    title: 'Sales Dashboard — Power BI',
-    desc: 'Interactive Power BI dashboard tracking monthly sales KPIs, regional performance, and year-over-year growth. Includes drill-through pages and DAX measures.',
-    tags: ['Power BI', 'DAX', 'Data Modeling', 'Excel'],
-    color: '#7c6af7',
-    emoji: '📊',
-    github: 'https://github.com/',
-    live: null,
+    title: 'AI Supply Chain Dashboard',
+    desc: 'AI-powered supply chain dashboard with forecasting, chatbot, KPI cards and email alerts.',
+    tags: ['Python', 'Django', 'Plotly', 'Pandas'],
+    color: '#34d399',
+    emoji: '📦',
+
+    github: 'https://github.com/shalinisenthilkumar2021-cmyk/AI_Supply_Chain_Dashboard.gi',
+
+    live: 'https://ai-supply-chain-dashboard-3238.onrender.com'
   },
+
+
   {
+    title: 'Air Traffic Analysis',
+    desc: 'Interactive dashboard for analyzing air traffic trends, passenger movement, airport performance and flight statistics using Python and data visualization tools.',
+
+    tags: ['Python', 'Pandas', 'Plotly', 'Streamlit'],
+
+    color: '#38bdf8',
+
+    emoji: '✈️',
+
+    github: 'https://github.com/shalinisenthilkumar2021-cmyk/Airtraffic-Analysis',
+
+    live: 'https://airtraffic-analysis.onrender.com'
+  },
+
+  {
+    title: 'Banking Analysis Dashboard',
+    desc: 'Excel dashboard analyzing loans, customers and transactions.',
+
+    tags: ['Excel', 'Power Query', 'Pivot'],
+
+    color: '#60a5fa',
+
+    emoji: '🏦',
+
+    github: 'https://github.com/shalinisenthilkumar2021-cmyk/Banking-Analysis-Excel',
+
+    live: null
+  },
+ 
+    
+ {
+    title: 'Cybersecurity Incident Analysis Dashboard',
+
+    desc: 'Developed an interactive Excel dashboard to monitor cybersecurity incidents, evaluate risk scores, analyze severity levels, and generate actionable security insights.',
+
+    tags: ['Excel', 'Cybersecurity', 'Dashboard'],
+
+    color: '#ef4444',
+
+    emoji: '🔐',
+
+    github: 'https://github.com/shalinisenthilkumar2021-cmyk/Cybersecurity-Incident-Intelligence-Dashboard',
+
+    live: null
+  },
+
+ 
+  {
+    title: "Telecom Customer Churn Dashboard",
+
+    desc: "An interactive Power BI dashboard developed to analyze customer churn patterns, demographics, subscription details, and key business metrics. The dashboard provides actionable insights to improve customer retention strategies.",
+
+    tags: [ "Power BI","DAX","Power Query","Excel"],
+
+    color: "#3B82F6",
+
+    emoji: "📊",
+
+    github: "https://github.com/shalinisenthilkumar2021-cmyk/Telecom-Dashboard",
+
+    live: null
+  },
+
+ {
     title: 'Student Database — SQL',
     desc: 'Relational database schema for a college management system with complex joins, stored procedures, and optimized queries for reports.',
     tags: ['SQL', 'MySQL', 'Normalization'],
@@ -21,15 +90,7 @@ const projects = [
     github: 'https://github.com/',
     live: null,
   },
-  {
-    title: 'Data Analysis — Python',
-    desc: 'Exploratory data analysis on a public dataset using Pandas and Matplotlib. Discovered trends, handled missing values, and visualized distributions.',
-    tags: ['Python', 'Pandas', 'Matplotlib', 'NumPy'],
-    color: '#f59e0b',
-    emoji: '🐍',
-    github: 'https://github.com/',
-    live: null,
-  },
+
   {
     title: 'Personal Portfolio — Web',
     desc: 'This responsive dark-theme portfolio website built with React, Vite, Tailwind CSS, and Framer Motion animations.',
@@ -39,24 +100,7 @@ const projects = [
     github: 'https://github.com/',
     live: '#',
   },
-  {
-    title: 'To-Do App — Django',
-    desc: 'Full-stack web application built with Django for task management. Features user authentication, CRUD operations, and a clean responsive UI.',
-    tags: ['Django', 'Python', 'HTML', 'CSS', 'SQLite'],
-    color: '#34d399',
-    emoji: '✅',
-    github: 'https://github.com/',
-    live: null,
-  },
-  {
-    title: 'HR Analytics — Excel',
-    desc: 'Excel workbook with pivot tables, slicers, and charts to analyze employee attrition, department performance, and satisfaction scores.',
-    tags: ['Excel', 'Pivot Tables', 'Data Viz'],
-    color: '#60a5fa',
-    emoji: '📈',
-    github: 'https://github.com/',
-    live: null,
-  },
+
 ]
 
 const stagger = { animate: { transition: { staggerChildren: 0.07 } } }

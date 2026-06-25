@@ -12,6 +12,7 @@ const fadeUp = {
 }
 
 export default function Home() {
+  const resumeUrl = `${import.meta.env.BASE_URL}shalini-resume.pdf`;
   return (
     <PageWrapper>
       <section className="min-h-screen grid-bg flex items-center justify-center px-6 pt-20 pb-16 relative overflow-hidden">
@@ -53,7 +54,7 @@ export default function Home() {
             Passionate about clean code and beautiful UIs.
           </motion.p>
 
-          {/* CTA buttons */}
+          {/* CTA buttons
           <motion.div variants={fadeUp} className="flex flex-wrap gap-4 justify-center mb-12">
             <Link
               to="/projects"
@@ -76,6 +77,36 @@ export default function Home() {
             >
               <Eye size={16} /> View CV
             </a>
+          </motion.div> */}
+
+
+          {/* CTA buttons */}
+          <motion.div variants={fadeUp} className="flex flex-wrap gap-4 justify-center mb-12">
+
+            <Link
+              to="/projects"
+              className="flex items-center gap-2 px-6 py-3 rounded-xl bg-accent hover:bg-accent/80 text-white"
+            >
+              View Projects <ArrowRight size={16} />
+            </Link>
+            <a
+              href={resumeUrl}
+              download
+
+              className="flex items-center gap-2 px-6 py-3 rounded-xl border border-white/15"
+            >
+              <Download size={16} /> Download CV
+            </a>
+            <a
+              href={resumeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+
+              className="flex items-center gap-2 px-6 py-3 rounded-xl border border-white/15"
+            >
+              <Eye size={16} /> View CV
+            </a>
+
           </motion.div>
 
           {/* Social links */}

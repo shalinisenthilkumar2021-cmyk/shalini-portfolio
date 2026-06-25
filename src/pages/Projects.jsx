@@ -81,16 +81,7 @@ const projects = [
     live: null
   },
 
- {
-    title: 'Student Database — SQL',
-    desc: 'Relational database schema for a college management system with complex joins, stored procedures, and optimized queries for reports.',
-    tags: ['SQL', 'MySQL', 'Normalization'],
-    color: '#2dd4bf',
-    emoji: '🗄️',
-    github: 'https://github.com/',
-    live: null,
-  },
-
+ 
   {
     title: 'Personal Portfolio — Web',
     desc: 'This responsive dark-theme portfolio website built with React, Vite, Tailwind CSS, and Framer Motion animations.',
